@@ -1,3 +1,27 @@
-h2{
+footer{
+    height: 40vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contador, .cronometro{
+    width: 40%;
+    height: 30vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    border: solid black;
+}
+
+footer h2{
     color: purple;
+    font-size: 3rem;
+}
+
+button{
+    width: 20vw;
+    height: 5vh;
+    font-size: 2rem;
 }
